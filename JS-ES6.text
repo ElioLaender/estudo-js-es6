@@ -1,0 +1,56 @@
+Babel:
+
+O babel é um transpilador, ou seja, traduz código JS. O Babel permite utilizar recursos do ES6, experimentos do ES7 e também utilizar a sintaxe JSX da bibliotela React. Isso é possível porque o Babel converte todo esse script em ES5, que é adotado pela maioria dos navegadores atuais. 
+
+Para vermos o funcionamento do babel, existe um site onde podemos ver o comparativo entre a escrita ES6 Oe sua conversão equivalente em ES5.
+
+Iteradores e iteraveis:
+
+Iteraveis, são estruturas de dados passíveis de serem analisadas por posições. Servindo como exemplo: arryas, strings, Maps, Sets.
+
+Iteradores, são funções capazes de trabalhar iterando pelos iteraveis, podendo acessar os valores em questão e ao mesmo tempo armazenar o status atual do loop, retornando false durante o processo e true quando o iteravel for totalmente percorrido.  
+
+
+Decrarando variáveis com const e let:
+
+JavaScript, por ser fracamente tipada, o tipo de cada variável é definido automátivamente, de acordo com o valor que é passado para a mesma. Assim sendo, até a versão ES5, tinhamos a declaração da seguinte forma:
+
+var objeto = {};
+var inteiro = 1;
+var nome = "Hugo";
+var lista = [1,2,3,4,5];
+
+Independente do objeto, o tipo não precisa ser especificado explicitamente. 
+
+É possível escrever JavasCript fortemente tipado através do uso do TypeScript, que transpila para JavaScript puro. 
+
+A partir da ES6, as palavras reservadas let e const irão substituir a declaração utilizando var. 
+
+Declaração de constantes com const:
+
+Quando temos um estrutura que será imutável durante a execução de um script, servindo de exemplo um objeto que armazenará dados de uma pessoa, podemos declarar uma variável como sendo const, dessa forma, qualquer tentativa de alterar o valor da estrutura em si, irá ocasionar o seguinte typeError: Assignment to constant variable. Mas isso não quer dizer que a estrutura da variável é imutável. Essa afirmação fica mais avidente de acordo com o exemplo:
+
+const pessoa = {nome: 'João'};
+pessoa.idade = 12;
+console.log(pessoa); 
+//retorno: {"nome":"joão", "idade": 12}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
