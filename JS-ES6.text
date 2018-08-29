@@ -35,6 +35,9 @@ pessoa.idade = 12;
 console.log(pessoa); 
 //retorno: {"nome":"joão", "idade": 12}
 
+Let:
+
+
 
 
 
