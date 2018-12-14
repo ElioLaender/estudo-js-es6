@@ -74,4 +74,19 @@ const equipe2 = {
 
 equipe2.membrosDaEquipe();
 
+/*
+- Instalar node.js (Já vem com npm)
+- instalar git.
+- Instalar typescript -> npm install -g typescript
+- Instalar angular-cli -> npm install -g angular-cli
+- Criar projeto -> ng new nomeProjeto
+- Acessar projeto cd nomeProjeto
+- Subir aplicação -> ng serve - depois localhost:4200
+- criar componente -> ng g c nome-componente
+*/
+
+
+
+
+
 
